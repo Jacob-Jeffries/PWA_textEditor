@@ -1,14 +1,15 @@
 {
-    "name": "JATE",
+    "name": "pwa_editor_server",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
     "scripts": {
-        "server": "nodemon server.js --ignore client"
+        "dev": "nodemon server.js --ignore client",
+        "start": "node server.js"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "Jacob Jeffries",
+    "license": "MIT",
     "dependencies": {
         "express": "^4.17.1"
     },
