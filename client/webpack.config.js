@@ -34,11 +34,9 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Contact Cards',
-        short_name: 'Contact',
-        description: 'Never forget your contacts!',
-        background_color: '#225ca3',
-        theme_color: '#225ca3',
+        name: 'Text Editor',
+        short_name: 'editor',
+        description: 'PWA Text Editor',
         start_url: './',
         publicPath: './',
         icons: [
